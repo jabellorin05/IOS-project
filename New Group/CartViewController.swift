@@ -2,7 +2,7 @@
 //  CartViewController.swift
 //  TravelAgency3
 //
-//  Created by Nelson Penha on 2024-04-28.
+//  Created by Nelson, Camilo and Jose on 2024-04-28.
 //
 
 import UIKit
@@ -14,10 +14,7 @@ class CartViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func returnMain(){
-        let main = storyboard?.instantiateViewController(withIdentifier: "VC") as! ViewController
-        present(main, animated: true)
-    }
+    
 
     /*
     // MARK: - Navigation
