@@ -2,7 +2,7 @@
 //  InformationViewController.swift
 //  TravelAgency3
 //
-//  Created by Nelson, Camilo and Jose on 2024-04-28.
+//  Created by Nelson Penha on 2024-04-28.
 //
 
 import UIKit
@@ -18,6 +18,10 @@ class InformationViewController: UIViewController {
     @IBAction func ButtonReservation(){
         let reservation = storyboard?.instantiateViewController(withIdentifier: "RVC") as! ReservationViewController
         present(reservation, animated: true)
+    }
+    @IBAction func returnMain(){
+        let main = storyboard?.instantiateViewController(withIdentifier: "VC") as! ViewController
+        present(main, animated: true)
     }
     /*
     // MARK: - Navigation

@@ -2,7 +2,7 @@
 //  ReservationViewController.swift
 //  TravelAgency3
 //
-//  Created by Nelson, Camilo and Jose on 2024-04-28.
+//  Created by Nelson Penha on 2024-04-28.
 //
 
 import UIKit
@@ -18,7 +18,10 @@ class ReservationViewController: UIViewController {
         let cart = storyboard?.instantiateViewController(withIdentifier: "CVC") as! CartViewController
         present(cart, animated: true)
     }
-
+    @IBAction func returnMain(){
+        let main = storyboard?.instantiateViewController(withIdentifier: "VC") as! ViewController
+        present(main, animated: true)
+    }
     /*
     // MARK: - Navigation
 
